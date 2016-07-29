@@ -18,3 +18,9 @@ $factory->define(User::class, function (Faker\Generator $faker) {
         'username' => $faker->userName,
     ];
 });
+
+$factory->define(Tweet::class, function (Faker\Generator $faker) {
+    return [
+        'body' => $faker->sentence,
+    ];
+});
