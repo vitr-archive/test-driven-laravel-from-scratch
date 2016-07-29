@@ -10,6 +10,6 @@ class UsersController extends Controller
 {
     public function show()
     {
-        return view('users.show');
+        return view('users.show', ['user' => $user]);
     }
 }
