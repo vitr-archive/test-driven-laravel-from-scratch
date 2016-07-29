@@ -12,6 +12,7 @@
 */
 
 use App\User;
+use App\Tweet;
 
 $factory->define(User::class, function (Faker\Generator $faker) {
     return [
