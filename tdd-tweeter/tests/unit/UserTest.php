@@ -7,6 +7,8 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class UserTest extends TestCase
 {
+    use DatabaseMigrations;
+
     public function testAUserCanBeFoundByUsername()
     {
         $createdUser = factory(User::class)->create(['username' => 'janedoe']);
