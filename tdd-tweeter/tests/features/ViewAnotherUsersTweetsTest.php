@@ -7,6 +7,8 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ViewAnotherUsersTweetsTest extends TestCase
 {
+    use DatabaseMigrations;
+
     public function testViewingAnotherUsersTweets()
     {
         $user = factory(User::class)->create([
