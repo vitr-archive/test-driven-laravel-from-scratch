@@ -26,7 +26,7 @@ class User extends Authenticatable
 
     public function Tweets()
     {
-        
+        return $this->hasMany(Tweet::class);
     }
 
 }
