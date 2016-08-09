@@ -1,5 +1,5 @@
 # test-driven-laravel-from-scratch
-Test Driven Laravel from Scratch from Adam Wathan at  https://vimeo.com/151390908  
+Test Driven Laravel from Scratch from Adam Wathan at https://adamwathan.me/2016/01/11/test-driven-laravel-from-scratch/
 
 The commands to run tests
 
